@@ -7,7 +7,8 @@ The dataset contains 3D point cloud representations of underwater objects such a
 - Device: BlueView BV5000 S3
 - Environment: Real ocean near Korea Maritime and Ocean University
 - Depth: ~6 meters
-- Format: `.xyz`, `.son`, `.txt`
+- Maximum Distance: ~15 meters
+- Format: `.xyz`, `.son`, `.txt`, `.pgm`, `.ppm`, `.csv`
 
 ## Dataset Structure
 ## 📁 Dataset Structure
