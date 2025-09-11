@@ -1,16 +1,15 @@
 ## Small Underwater Objects 3D Point Cloud Dataset
-This repository provides a high-quality underwater Objects 3D point cloud dataset acquired using the BlueView BV5000 S3 multibeam sonar. The dataset includes multiple real underwater objects captured at different distances and labeled for object detection and recognition tasks.
+This repository provides a high-quality 3D point cloud dataset of underwater objects acquired using the BlueView BV5000 MK2-1350 mechanical scanning sonar (MSS). This dataset contains 3D point cloud data at various distances and poses, and features multiple labeled real-world underwater objects for object detection and recognition tasks.
 
 ## Overview
-The dataset contains 3D point cloud representations of underwater objects such as tires, dummies, drums, and nets. All data were collected in real sea environments using a multibeam sonar scanner and processed to generate .xyz files with intensity values.
+The SUOP dataset is publicly available and contains 3D point cloud data of tires, dummies, drums, chairs, and nets collected in real marine environments. Each object includes a total of 300 data samples, with corresponding sonar metadata and 2D sonar images provided for each sample.
 
-- Device: BlueView BV5000 S3
+- Device: BlueView BV5000 MK2-1350
 - Environment: Real ocean near Korea Maritime and Ocean University
 - Depth: ~6 meters
 - Maximum Distance: ~30 meters
 - Format: `.xyz`, `.son`, `.txt`, `.pgm`, `.ppm`, `.csv`
 
-## Dataset Structure
 ## 📁 Dataset Structure
 ```
 Tire/
