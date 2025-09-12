@@ -1,4 +1,4 @@
-## Small Underwater Objects 3D Point Cloud Dataset
+## Small Underwater Objects 3D Point Cloud (SOUP) Dataset
 This repository provides a high-quality 3D point cloud dataset of underwater objects acquired using the BlueView BV5000 MK2-1350 mechanical scanning sonar (MSS). This dataset contains 3D point cloud data at various distances and poses, and features multiple labeled real-world underwater objects for object detection and recognition tasks.
 
 ## Overview
