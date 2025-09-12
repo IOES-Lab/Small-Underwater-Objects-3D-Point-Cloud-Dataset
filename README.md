@@ -14,7 +14,7 @@ The SUOP dataset is publicly available and contains 3D point cloud data of tires
 ```
 Tire/
 ├── Tire_3m/
-│   ├── *.xyz   # 3D Point Cloud (x, y, z, intensity)
+│   ├── *.xyz   # 3D Point Cloud Data
 │   ├── *.txt   # Sonar Setting information
 │   └── *.son   # Raw sonar files
 │   └── *.metadata
