@@ -14,101 +14,37 @@ The SUOP dataset is publicly available and contains 3D point cloud data of tires
 
 ## 📁 Dataset Structure
 ```
-Tire/
-├── Tire_3m/
-│   ├── *.xyz   # 3D Point Cloud Data
-│   ├── *.txt   # Sonar Setting information
-│   └── *.son   # Raw sonar files
-│   └── *.metadata
-│         └──Tire ()
-│            └──images_pgm
-│            └──images_ppm
-│            └──images_data
-│            └──Tire ()_head.txt
-│            └──Tire ()_pins.cvs
-├── Tire_6m/
-│   ├── *.xyz
-│   ├── *.txt
-│   └── *.son
-│   └── *.metadata
-│         └──Tire ()
-│            └──images_pgm
-│            └──images_ppm
-│            └──images_data
-│            └──Tire ()_head.txt
-│            └──Tire ()_pins.cvs
-└── Tire_10m/
-│   ├── *.xyz
-│   ├── *.txt
-│   └── *.son
-│   └── *.metadata
-│         └──Tire ()
-│            └──images_pgm
-│            └──images_ppm
-│            └──images_data
-│            └──Tire ()_head.txt
-│            └──Tire ()_pins.cvs
-│
-Dummy/
-├── Dummy_3m/
-│   ├── *.xyz
-│   ├── *.txt
-│   └── *.son
-│   └── *.metadata
-│         └──Dummy ()
-│            └──images_pgm
-│            └──images_ppm
-│            └──images_data
-│            └──Dummy ()_head.txt
-│            └──Dummy ()_pins.cvs
-├── Dummy_6m/
-│   ├── *.xyz
-│   ├── *.txt
-│   └── *.son
-└── Dummy_10m/
-│   ├── *.xyz
-│   ├── *.txt
-│   └── *.son
-│
-Drum/
-├── Drum_3m/
-│   ├── *.xyz
-│   ├── *.txt
-│   └── *.son
-├── Drum_6m/
-│   ├── *.xyz
-│   ├── *.txt
-│   └── *.son
-└── Drum_10m/
-    ├── *.xyz
-    ├── *.txt
-    └── *.son
-
-Net/
-├── Net_3m/
-│   ├── *.xyz
-│   ├── *.txt
-│   └── *.son
-├── Net_6m/
-│   ├── *.xyz
-│   ├── *.txt
-│   └── *.son
-└── Net_10m/
-    ├── *.xyz
-    ├── *.txt
-    └── *.son
-
-Chair/
-├── Chair_3m/
-│   ├── *.xyz
-│   ├── *.txt
-│   └── *.son
-├── Chair_6m/
-│   ├── *.xyz
-│   ├── *.txt
-│   └── *.son
-└── Chair_10m/
-    ├── *.xyz
-    ├── *.txt
-    └── *.son
+SOUP_dataset/
+├── chair/
+|   ├── chair_range_10m/
+|   |   ├── case_001/
+|   |   |   ├── metadata/
+|   |   |   |   ├── head_info.txt
+|   |   |   |   ├── ping_info.csv
+|   |   |   |   └── case_settings.txt
+|   |   |   ├── ping_data/
+|   |   |   |   ├── ping_0/
+|   |   |   |   |   ├── range_data.txt
+|   |   |   |   |   ├── image.ppm
+|   |   |   |   |   └── image.pgm
+|   |   |   |   ├── ping_1/
+|   |   |   |   |   └── ...
+|   |   |   |   └── .../
+|   |   |   └── raw_data.son
+|   |   |   └── point_cloud.xyz
+|   |   ├── case_002/
+|   |   |   └── .../
+|   |   └── .../
+|   ├── chair_range_6m/
+|   |   └── ...
+|   └── chair_range_3m/
+|       └── ...
+├── drum/
+|   └── ...
+├── dummy/
+|   └── ...
+├── net/
+|   └── ...
+└── tire/
+    └── ...
 ```
